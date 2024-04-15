@@ -47,13 +47,6 @@
           </li>
           <li>
             <nuxt-link
-              :to="localePath('/blog')"
-              class="text-copy-primary hover:text-gray-600"
-              >/blog</nuxt-link
-            >
-          </li>
-          <li>
-            <nuxt-link
               :to="localePath('/career')"
               class="text-copy-primary hover:text-gray-600"
               >{{ $t("career") }}</nuxt-link

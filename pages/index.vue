@@ -45,7 +45,7 @@
         >
           <div>
             <img
-              src="~assets/img/me/daooda.webp"
+              src="~assets/img/me/daooda.ba.webp"
               width="32px"
               height="32px"
               alt="DaoudaBA"
@@ -58,42 +58,6 @@
     </div>
 
     <Skills />
-
-    <div class="container-inner mx-auto mb-12">
-      <h1 class="font-bold text-3xl mb-6 underline">📜 {{ $t("last") }} :</h1>
-      <div
-        v-for="(post, index) in posts"
-        :key="index"
-        class="post border-gray-400 border-b mb-12"
-      >
-        <h2 class="text-2xl font-bold">
-          <nuxt-link :to="`/posts/${post.slug}`" class="text-green-700">{{
-            post.title
-          }}</nuxt-link>
-        </h2>
-        <div class="text-copy-secondary mb-4">
-          <span>{{ formatDate(post.date) }}</span>
-        </div>
-
-        <div class="text-lg mb-4">
-          {{ post.summary }}
-        </div>
-
-        <div class="mb-8">
-          <nuxt-link :to="`/posts/${post.slug}`" class="font-bold uppercase">{{
-            $t("read")
-          }}</nuxt-link>
-        </div>
-      </div>
-
-      <div class="flex justify-between text-xl items-center">
-        <div>
-          <nuxt-link :to="localePath('/blog')" class="font-bold uppercase"
-            >{{ $t("go") }} ▶️</nuxt-link
-          >
-        </div>
-      </div>
-    </div>
   </div>
 </template>
 
