@@ -19,10 +19,10 @@
     </div>
 
     <div class="flex flex-wrap items-center text-4xl mt-5">
-      <IconTailwind class="m-2 md:m-4" />
       <IconDocker class="m-2 md:m-4" />
       <IconPrisma class="m-2 md:m-4" />
       <IconFirebase class="m-2 md:m-4" />
+      <IconPocketbase class="m-2 md:m-4" />
     </div>
   </div>
 </template>
