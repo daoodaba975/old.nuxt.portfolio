@@ -8,24 +8,21 @@
       <IconJavaScript class="m-2 md:m-4" />
       <IconTypeScript class="m-2 md:m-4" />
       <IconDart class="m-2 md:m-4" />
-      <!-- <IconPhp class="m-2 md:m-4"/>
-      <IconLaravel class="m-2 md:m-4"/> -->
+      <IconRuby class="m-2 md:m-4" />
     </div>
 
     <div class="flex flex-wrap items-center text-4xl mt-5">
       <IconReact class="m-2 md:m-4" />
       <IconNext class="m-2 md:m-4" />
-      <!-- <IconVue class="m-2 md:m-4"/>
-      <IconNuxt class="m-2 md:m-4"/> -->
-      <IconTailwind class="m-2 md:m-4" />
+      <IconFlutter class="m-2 md:m-4" />
+      <IconRails class="m-2 md:m-4" />
     </div>
 
     <div class="flex flex-wrap items-center text-4xl mt-5">
-      <IconFlutter class="m-2 md:m-4" />
-      <!-- <IconSvelte class="m-2 md:m-4" /> -->
-      <IconFirebase class="m-2 md:m-4" />
+      <IconTailwind class="m-2 md:m-4" />
       <IconDocker class="m-2 md:m-4" />
-      <!-- <IconJest class="m-2 md:m-4" /> -->
+      <IconPrisma class="m-2 md:m-4" />
+      <IconFirebase class="m-2 md:m-4" />
     </div>
   </div>
 </template>
