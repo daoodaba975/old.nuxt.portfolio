@@ -1,5 +1,6 @@
 {
   "name": "daoodaba975",
+  "description": "My personal website, created with Nuxt JS, Gridsome & Tailwind CSS",
   "version": "1.0.0",
   "private": true,
   "engines": {
